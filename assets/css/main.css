@@ -2544,14 +2544,14 @@ input, select, textarea {
 		padding: 0;
 	}
 
-		#nav:after {
+		/* #nav:after {
 			content: '';
 			display: block;
 			width: 100%;
 			height: 0.75em;
 			background-color: #37c0fb;
 			background-image: url("images/bg01.png");
-		}
+		} */
 
 		#nav > ul {
 			margin: 0;
@@ -3338,6 +3338,15 @@ input, select, textarea {
 
 	}
 
+/* Custom */
+
+/* Icons */
+
+i {
+	font-size: 75px;
+	margin: auto;
+}
+
 /* About */
 .about-me {
 	display: grid;
@@ -3347,4 +3356,16 @@ input, select, textarea {
 .display-picture {
 	min-height: 200px;
 	min-width: 100px;
+}
+
+.skill-display {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+	justify-content: center;
+	align-items: center;
+}
+
+.skills-container {
+	margin-bottom: 50px;
 }
