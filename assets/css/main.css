@@ -3371,3 +3371,24 @@ i {
 .skills-container {
 	margin-bottom: 50px;
 }
+
+/* Footer */
+
+.contact-info {
+	width: fit-content;
+	margin: auto;
+}
+
+.contact-info h3 {
+	margin-bottom: 0;
+	/* margin: auto;
+	width: 500px;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 1fr); */
+}
+
+#contact {
+	text-align: center;
+	border: none;
+}
