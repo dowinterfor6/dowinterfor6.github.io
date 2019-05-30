@@ -3349,6 +3349,12 @@ i {
 	margin: auto;
 }
 
+.redux {
+	width: 75px;
+	height: 75px;
+	margin: auto;
+}
+
 /* About */
 .about-me {
 	display: grid;
