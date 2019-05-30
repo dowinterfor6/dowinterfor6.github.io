@@ -3404,3 +3404,11 @@ i {
 	color: black;
 	text-decoration: underline;
 }
+
+#contact #email {
+	width: 206px;
+}
+
+#contact #phone {
+	width: 126px;
+}

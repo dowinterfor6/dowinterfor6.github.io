@@ -16,6 +16,7 @@
 			const copy = (e) => {
 				e.select();
 				document.execCommand("copy");
+				e.blur();
 			};
 			document.addEventListener('DOMContentLoaded', () => {
 				let email = document.getElementById('email');
