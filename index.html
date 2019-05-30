@@ -12,6 +12,22 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="shortcut icon" href="./images/favicon.png">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">	
+		<script>
+			const copy = (e) => {
+				e.select();
+				document.execCommand("copy");
+			};
+			document.addEventListener('DOMContentLoaded', () => {
+				let email = document.getElementById('email');
+				let phone = document.getElementById('phone-number');
+				email.addEventListener('keydown', (e) => {
+					copy(email);
+				});
+				phone.addEventListener('keydown', (e) => {
+					copy(phone);
+				});
+			})
+		</script>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -216,19 +232,36 @@
 			<!-- Footer -->
 				<div id="footer">
 					<div class="container">
+						<h4 style="text-align:center">Click on e-mail or phone number to copy</h4>
 						<ul class="contact-info menu">
-							<li id="contact"><h3>Email:</h3></li>
-							<li id="contact">dowinterfor6@gmail.com</li>
+							<li id="contact"><h3>E-mail:</h3></li>
+							<li id="contact">
+								<input 
+									type="text"
+									readonly
+									value="dowinterfor6@gmail.com"
+									id="email"
+									class="input-copy"
+								>
+							</li>
 							<li id="contact"><h3>Phone Number:</h3></li>
-							<li id="contact">1 206 747 2542</li>
+							<li id="contact">
+								<input 
+									type="text" 
+									readonly 
+									value="1 206 747 2542" 
+									id="phone-number"
+									class="input-copy"
+								>
+							</li>
 						</ul>
 					</div>
 
 					<!-- Icons -->
 						<ul id="contact" class="icons">
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://www.facebook.com/andrew.chan.9400" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/dowinterfor6" class="icon fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://linkedin.com/in/a-z-chan" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						</ul>
 
 					<!-- Copyright -->
