@@ -3359,11 +3359,22 @@ i {
 .about-me {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	margin-bottom: 50px;
 }
 
 .display-picture {
-	min-height: 200px;
-	min-width: 100px;
+	height: 300px;
+	width: auto;
+	margin: auto;
+}
+
+.about-me .text p {
+	margin: 0;
+}
+
+.about-me .text {
+	height: fit-content;
+	margin: auto;
 }
 
 .skill-display {
