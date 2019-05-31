@@ -2526,14 +2526,16 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			padding: 0 0 2.75em 0;
+			padding: 0 0 1.5em 0;
 			margin: 0;
+			font-size: 2.5em;
+			letter-spacing: -0.025em;
+			border: 0;
+			user-select: none;
 		}
 
-			#header h1 a {
-				font-size: 1.5em;
-				letter-spacing: -0.025em;
-				border: 0;
+			#header h1 em {
+				font-size: 0.65em;
 			}
 
 	#nav {
