@@ -3392,6 +3392,23 @@ i {
 	margin-bottom: 50px;
 }
 
+/* Skills */
+.image {
+	max-width: 174px;
+	max-height: 174px;
+	min-width: 174px;
+	min-height: 174px;
+}
+
+.image.left .capy-icon {
+	margin: auto;
+	height: 174px;
+}
+
+.image:hover {
+	
+}
+
 /* Footer */
 
 .contact-info {
@@ -3401,11 +3418,6 @@ i {
 
 .contact-info h3 {
 	margin-bottom: 0;
-	/* margin: auto;
-	width: 500px;
-	list-style: none;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 1fr); */
 }
 
 #contact {
