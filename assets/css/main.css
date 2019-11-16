@@ -2526,7 +2526,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			padding: 0 0 1.5em 0;
+			padding: 0 0 1.25em 0;
 			margin: 0;
 			font-size: 2.5em;
 			letter-spacing: -0.025em;
@@ -2708,7 +2708,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 5em 0 3em 0;
+		padding: 0.5em 0 0.5em 0;
 	}
 
 		.wrapper.style1 {
@@ -2852,7 +2852,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					padding: 0 0 1.75em 0;
+					padding: 0 0 1em 0;
 				}
 
 		/* Banner */
@@ -2864,7 +2864,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			.wrapper {
-				padding: 3em 0 1em 0;
+				padding: 0.5em 0 0.5em 0;
 			}
 
 		/* CTA */
@@ -2917,7 +2917,7 @@ input, select, textarea {
 			}
 
 			h1, h2, h3, h4, h5, h6 {
-				margin-bottom: 0.5em;
+				margin-bottom: 0.25em;
 			}
 
 			header p {
@@ -3264,7 +3264,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			.wrapper {
-				padding: 2em 0 1px 0;
+				padding: 0.5em 0 0.5px 0;
 			}
 
 	}
