@@ -20,26 +20,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- <link rel="shortcut icon" href="./images/favicon.png"> -->
-		<link rel="icon" href="./images/favicon.ico" />
-		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">	
-		<script>
-			const copy = (e) => {
-				e.select();
-				document.execCommand("copy");
-				e.blur();
-			};
-			document.addEventListener('DOMContentLoaded', () => {
-				let email = document.getElementById('email');
-				let phone = document.getElementById('phone-number');
-				email.addEventListener('keydown', (e) => {
-					copy(email);
-				});
-				phone.addEventListener('keydown', (e) => {
-					copy(phone);
-				});
-			})
-		</script>
+		<link rel="shortcut icon" href="./images/favicon.png">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -54,8 +36,9 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="#about">About me</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
-								<li><a href="resume/Andrew_Chan_Resume.pdf">Resume</a></li>
+								<li><a href="#experience">Experience</a></li>
+								<li><a href="#sideProjects">Side Projects</a></li>
+								<li><a href="resume/Andrew_Chan_Resume.pdf" target="__blank">Resume</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
 						</nav>
@@ -67,7 +50,7 @@
 				<div class="container">
 					<header class="major">
 						<h2>About me</h2>
-						<p>Learn more about my experience in JavaScript, Ruby, and Ruby on Rails, or what my username means</p>
+						<p>Learn more about my experience in creating web solutions</p>
 					</header>
 				</div>
 			</section>
@@ -79,48 +62,45 @@
 						<div class="text">
 							<h3>Who am I</h3>
 							<p>
-								I'm a software engineer from Hong Kong, currently residing in San Francisco.
-								With a background in Applied Physics from the University of Washington, my 
-								passion is problem-solving with the tools that I am given to work with. I am
-								a naturally curious person, and enjoys working with like-minded peers.
+								I'm a software engineer currently residing in San Francisco.
+								I have a background in Applied Physics from the University of Washington
+								and currently working at Nisum, a leader in e-commerce technology consulting. 
+								With expertise in working closely with product managers and UI/UX teams to meet
+								and exceed product expectations, I work with my team to bring the best out of
+								everyone.
 							</p>
 						</div>
 					</div>
 					<div class="container">
-						<h3 style="text-align:center">Skills and languages</h3>
+						<h3 style="text-align:center">Tech that I work with</h3>
 						<div class="row gtr-200">
 							<section class="col-4 col-12-narrower">
 								<div class="box highlight">
 									<i class="devicon-javascript-plain" style="color: #34b7ee"></i>
 									<h3>JavaScript</h3>
 									<p>
-										With a firm grasp of ES6 and some exposure to ES5
-										syntax, many of my projects are written in this language, following
-										Object Oriented Programming principles.
+										With over two years of experience using ES6 JavaScript with my company clients,
+										I can bring any idea to life with the flexibility of this language.
 									</p>
 								</div>
 							</section>
 							<section class="col-4 col-12-narrower">
 								<div class="box highlight">
-										<i class="devicon-ruby-plain colored"></i>
-									<h3>Ruby</h3>
+										<i class="devicon-vuejs-plain colored"></i>
+									<h3>Vue</h3>
 									<p>
-										"Any fool can write code that a computer can understand. Good 
-										programmers write code that humans can understand." - Martin Fowler.
-										Known for the syntactic sugar and very "read-able" code, Ruby is
-										the core language for my Ruby on Rails project.
+										One of the popular frontend frameworks, Vue has been an integral part of my tech stack
+										that I use on a day to day basis with my current company client.
 									</p>
 								</div>
 							</section>
 							<section class="col-4 col-12-narrower">
 								<div class="box highlight">
-										<i class="devicon-rails-plain colored"></i>
-									<h3>Rails</h3>
+										<i class="devicon-nodejs-plain colored"></i>
+									<h3>Node.js</h3>
 									<p>
-										Rails offers a framework for developing full stack web applications 
-										that follow the principle of convention over configuration, as well
-										as emphasizing RESTful APIs. This formed the basis for my Discord 
-										clone, Discourse.
+										Having the benefit of also being written in JavaScript, Node.js is a comfortable
+										choice as a backend server language, often used for server side rendering.
 									</p>
 								</div>
 							</section>
@@ -128,38 +108,147 @@
 					</div>
 					<div class="container skills-container">
 						<div class="skill-display">
-							<i class="devicon-react-original colored"></i>
-							<img class="redux" src="./images/redux.png" alt="">
-							<i class="devicon-nodejs-plain"></i>
-							<i class="devicon-mongodb-plain colored"></i>
-							<i class="devicon-express-original colored"></i>
-							<i class="devicon-postgresql-plain colored"></i>
-							<i class="devicon-jquery-plain colored"></i>
-							<i class="devicon-html5-plain colored"></i>
-							<i class="devicon-css3-plain colored"></i>
+							<label class="skill">
+								<i class="devicon-html5-plain colored"></i>
+								<h4>HTML 5</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-css3-plain colored"></i>
+								<h4>CSS 3</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-tailwindcss-original-wordmark colored"></i>
+								<h4>Tailwind</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-git-plain colored"></i>
+								<h4>Git</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-webpack-plain colored"></i>
+								<h4>Webpack</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-jenkins-line"></i>
+								<h4>Jenkins</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-docker-plain colored"></i>
+								<h4>Docker</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-typescript-original colored"></i>
+								<h4>TypeScript</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-jest-plain colored"></i>
+								<h4>Jest</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-react-original colored"></i>
+								<h4>React</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-redux-original colored"></i>
+								<h4>Redux</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-mongodb-plain colored"></i>
+								<h4>MongoDB</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-express-original colored"></i>
+								<h4>Express</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-postgresql-plain colored"></i>
+								<h4>PostgreSQL</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-ruby-plain colored"></i>
+								<h4>Ruby</h4>
+							</label>
+							<label class="skill">
+								<i class="devicon-rails-plain colored"></i>
+								<h4>Ruby on Rails</h4>
+							</label>
 						</div>
-					</div>
-					<div class="container username">
-						<h3>Where did my username come from?</h3>
-						<p>
-							Wondering what "do-winter-for-6" or "dow-inter-for-6" means? Back in the 
-							early/mid 2000s, a popular game occupied most of my friends' free time - 
-							Runescape. A good friend of mine tried to get me into the game, but I 
-							struggled to come up with a creative username (much like everyone else), 
-							so I asked them for a suggestion, but I didn't quite make out what they said
-							over the phone and just typed out what I thought I heard...
-							It's now a very unique username that's never taken, and those that know me
-							by that name just refer to me as "winter" as that's much easier and memorable.
-						</p>
 					</div>
 				</section>
 
 			<!-- Gigantic Heading -->
-				<section id='portfolio' class="wrapper style2">
+				<section id='experience' class="wrapper style2">
 					<div class="container">
 						<header class="major">
-							<h2>Portfolio</h2>
-							<p>Browse my projects</p>
+							<h2>Experience</h2>
+							<p>See what I've been up to</p>
+						</header>
+					</div>
+				</section>
+
+			<!-- Posts -->
+			<section class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<section class="experience-container">
+							<div class="box">
+								<div class="inner">
+									<h3>SF-based Fortune 500 consumer retail client, <em>Front End Software Engineer</em></h3>
+									<h4><em>July 2020 - Present</em></h4>
+									<p>
+										Migrated core e-commerce pages and features from an old tech stack into a new one using Vue and Node.js, while
+										developing new features to support company vision and growth.
+									</p>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="row">
+						<section class="experience-container">
+							<div class="box">
+								<div class="inner">
+									<h3>Nisum, <em>Software Engineer</em></h3>
+									<h4><em>January 2020 - July 2020</em></h4>
+									<p>
+										Developed and polished core languages and frameworks commonly used by clients, as well as migrated a business to business (B2B)
+										site and created multiple working proof of concepts for clients.
+									</p>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="row">
+						<section class="experience-container">
+							<div class="box">
+								<div class="inner">
+									<h3>App Academy, <em>Software Engineer Technical Admissions Specialist</em></h3>
+									<h4><em>August 2019 - December 2019</em></h4>
+									<p>
+										Conducted various technical interviews for potential bootcamp candidates, and mentored peers to prepare them for the position.
+									</p>
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="row">
+						<section class="experience-container">
+							<div class="box">
+								<div class="inner">
+									<h3>University of Washington, Seattle, <em>B.S. Applied Physics</em></h3>
+									<h4><em>Spring 2019</em></h4>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+			<!-- Gigantic Heading -->
+				<section id='sideProjects' class="wrapper style2">
+					<div class="container">
+						<header class="major">
+							<h2>Side Projects</h2>
+							<p>See what I've done in my free time</p>
 						</header>
 					</div>
 				</section>
@@ -169,54 +258,41 @@
 					<div class="container">
 						<div class="row">
 							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="https://go-chella.herokuapp.com" class="image left"><img src="./images/Gochella.png" alt="" /></a>
+								<div class="box">
+									<a href="https://e7rtastats.com/" target="__blank" class="image custom-image-container">
+										<img class="custom-image" src="./images/E7RtaStatsSS.png" alt="Stats Project Screenshot" />
+									</a>
 									<div class="inner">
-										<h3>Go-chella (formerly Bro-chella)</h3>
+										<h3>
+											<a href="https://e7rtastats.com/" target="__blank">
+												Epic 7 RTA (Real Time Arena) Stats
+											</a>
+										</h3>
 										<p>
-											An event planning web app to help organizers plan which acts their group will be
-											attending throughout an event. Built using MongoDB and React/Redux.
+											A mobile responsive data visualizer for Epic 7, a mobile RPG.
+											Data was available via a Reddit user's efforts, and I've utilized
+											it to create a visualizer for various statistics that players may
+											be interested in.
 										</p>
 									</div>
 								</div>
 							</section>
 							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="https://discord-clone.herokuapp.com" class="image left"><img src="./images/Discourse.png" alt="" /></a>
+								<div class="box">
+									<a href="https://play.google.com/store/apps/details?id=com.dowinterfor6.flappybara" target="__blank" class="image custom-image-container">
+										<img class="custom-image" src="./images/FlappybaraSS.png" alt="Mobile Game Screenshot" />
+									</a>
 									<div class="inner">
-										<h3>Discourse (Discord clone)</h3>
+										<h3>
+											<a href="https://play.google.com/store/apps/details?id=com.dowinterfor6.flappybara" target="__blank">
+												Flappybara
+											</a>
+										</h3>
 										<p>
-											An application that provides a platform for live text chat in 
-											private servers and channels. Built using React/Redux and 
-											Ruby on Rails.
-										</p>
-									</div>
-								</div>
-							</section>
-						</div>
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="https://achan.dev/shadow-fight" class="image left"><img src="./images/Shadowfight.png" alt="" /></a>
-									<div class="inner">
-										<h3>Shadow-fight (inspired by Street Fighter)</h3>
-										<p>
-											A fighting game where you can punch your opponent to death 
-											with a backdrop of falling sakura petals or snow. Built using 
-											JavaScript and HTML5 Canvas.
-										</p>
-									</div>
-								</div>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="https://play.google.com/store/apps/details?id=com.dowinterfor6.flappybara" class="image left"><img src="./images/Flappybara.png" alt="" class="capy-icon"/></a>
-									<div class="inner">
-										<h3>Flappybara (Flappy Bird clone)</h3>
-										<p>
-											Inspired by the popular Flappy Bird game, Flappybara 
-											follows the flying adventures of a capybara. Built using 
-											Unity and C# (with Mono).
+											A casual 2D side scroller, inspired by Flappy Bird. Being my
+											first real experience developing with Unity3D, this project 
+											has been the jumping off point for me to explore game development and 
+											other similar technologies such as Unreal Engine and Three.js.
 										</p>
 									</div>
 								</div>
@@ -235,40 +311,23 @@
 					</div>
 				</section>
 
-				<!-- Gigantic Heading -->
-				<section id='contact' class="wrapper style2">
-						<div class="container">
-							<header class="major">
-								<h2>Contact</h2>
-								<p>Get in touch</p>
-							</header>
-						</div>
-					</section>
-
 			<!-- Footer -->
 				<div id="footer">
 					<div class="container">
-						<h4 style="text-align:center">Click on e-mail or phone number to copy</h4>
+						<h2 class="footer-instruction">Click on my e-mail to get in touch!</h2>
+
 						<ul class="contact-info menu">
 							<li id="contact"><h3>E-mail:</h3></li>
 							<li id="contact">
-								<input 
-									type="text"
-									readonly
-									value="dowinterfor6@gmail.com"
-									id="email"
-									class="input-copy"
-								>
-							</li>
-							<li id="contact"><h3>Phone Number:</h3></li>
-							<li id="contact">
-								<input 
-									type="text" 
-									readonly 
-									value="1 206 747 2542" 
-									id="phone-number"
-									class="input-copy"
-								>
+								<a href="mailto:dowinterfor6@gmail.com" target="__blank">
+									<input 
+										type="text"
+										readonly
+										value="dowinterfor6@gmail.com"
+										id="email"
+										class="input-copy"
+									>
+								</a>
 							</li>
 						</ul>
 					</div>
