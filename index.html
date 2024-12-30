@@ -1,362 +1,324 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
-	Arcana by HTML5 UP
+	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143402135-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-143402135-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-			gtag('config', 'UA-143402135-1');
-		</script>
+      gtag("config", "UA-143402135-1");
+    </script>
 
-		<title>Andrew Chan</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="shortcut icon" href="./images/favicon.png">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+    <title>Andrew Chan</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Sidebar -->
+    <section id="sidebar">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#intro">Welcome</a></li>
+            <li><a href="#one">About me</a></li>
+            <li><a href="#two">Education</a></li>
+            <li><a href="#three">Get in touch</a></li>
+            <li>
+              <a href="resume/Andrew_Chan_Resume.pdf" target="_blank"
+                >See my Resume</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
 
-			<!-- Header -->
-				<div id="header">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Intro -->
+      <section id="intro" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+          <h1>Hi, I'm Andrew Chan</h1>
+          <p>
+            Senior Software Engineer knowledgeable in both corporate and startup
+            environments. I thrive in bridging the gap between product feature
+            requests and the technical nitty-gritty to provide the solution with
+            the greatest value to all stakeholders.
+          </p>
+          <ul class="actions">
+            <li><a href="#one" class="button scrolly">Learn more</a></li>
+          </ul>
+        </div>
+      </section>
 
-					<!-- Logo -->
-						<h1>Andrew Chan <em>aka dowinterfor6</em></h1>
+      <!-- One -->
+      <section id="one" class="wrapper style2 spotlights">
+        <section>
+          <div class="content">
+            <div class="inner">
+              <h2>Quantum Metric - Senior Software Engineer</h2>
+              <h5>January 2023 - Present | Redmond, WA, USA</h5>
+              <p>
+                As a Senior Software Engineer, I became the SME (Subject Matter
+                Expert) in many areas to help fulfil the fast moving and
+                constantly changing requirements of working in a startup
+                environment. I worked directly with our SVP of Engineering to
+                create a highly technical feature that introduced an entirely
+                new solution to querying for data within a specific user defined
+                context. I piloted a service creation workflow by learning Go
+                (Golang) from scratch, and standing up a query caching service
+                for ad hoc queries to be sent off when an alert is fired. I
+                worked closely with our product and field teams to collaborate
+                on critical features and quirks of our platform, from data
+                visualization to mathematical statistics problems.
+              </p>
+              <p>
+                I've also started taking on a lot more responsibility that falls
+                under a staff role. I've orchestrated discussions around unit
+                testing (and what constitutes meaningful tests) in our codebase,
+                and laid the foundation of Jest + React Testing Library unit
+                tests with initial unit tests, mocks, and Gitlab pipeline
+                configurations. This lead to the entire engineering department
+                adopting the culture of unit testing, greatly improving our
+                codebase and resilience against regressions. I've promoted a
+                culture of documentation and education, by adding vital coverage
+                to legacy and core portions of the codebase that is less well
+                understood and excruciatingly hard to maintain. I've strongly
+                encouraged peers to not be afraid to dig deep into legacy code,
+                and have volunteered countless hours to guiding them along the
+                process of learning to navigate legacy code. I have also
+                frequently attended meetings in the place of, or in addition to,
+                staff engineers to provide a more technical insight to the
+                discussion at hand, whether that's dissecting the feasibility of
+                a new feature or architecting a new solution across engineering
+                departments.
+              </p>
+              <p>
+                Additionally, I have also had a lasting impact on our company's
+                platform. I was a fundamental part of the effort to improve the
+                less than desirable performance, by breaking down legacy code
+                and experimenting with various fixes. This led to a reduction of
+                query time from over 5 seconds to around 3 seconds for data
+                heavy clients. On the security side, a security audit deemed our
+                platform needed an upgrade to HTTPOnly (disable client side
+                script access to cookies). I collaborated with a staff engineer
+                to complete this upgrade in time for the security audit deadline
+                to ensure we were up to date with security best practices.
+                Lastly, and most recently, I was heavily involved with multiple
+                features that helped secure a >$10 million USD deal with a major
+                US telecommunications client, by providing my expertise to aid
+                peers, leading discussions between engineers, product, and field
+                members, and designing and writing out core features.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <div class="inner">
+              <h2>Quantum Metric - Front End Software Engineer</h2>
+              <h5>
+                March 2022 - January 2023 | Fremont, CA, USA & Redmond, WA, USA
+              </h5>
+              <p>
+                I joined Quantum Metric as an intermediate software engineer,
+                but thanks to my exceptional performance in refactoring legacy
+                code and promoting reusable and DRY concepts, as well as showing
+                independence and persistence in my work, I was quickly put on
+                track to being promoted to a Senior Software Engineer within the
+                next possible promotion cycle.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <div class="inner">
+              <h2>
+                Nisum (at SF Based Fortune 500 consumer retail client) - Front
+                End Software Engineer
+              </h2>
+              <h5>July 2020 - March 2022 | Fremont, CA, USA</h5>
+              <p>
+                I was quickly identified as a strong candidate to work at one of
+                Nisum's largest clients. As I got more familiar with Vue, I also
+                learned the ins and outs of working with a corporate codebase
+                with a MFE (micro frontends) architecture. I quickly picked up
+                unfamiliar technology such as Java, Web Components, SVN,
+                Jenkins, etc. to more effectively perform my job of migrating
+                the older legacy components to a newer Javascript Vue-based
+                micro frontend. As my technical skill and leadership was
+                becoming more apparent, I was recommended to help out with the
+                hiring process of (senior) software engineers for the client.
+              </p>
+              <p>
+                Additionally, I was identified as the perfect engineer to work
+                on migrating the complex build script from bash scripts to a
+                node based process. I architected the solution with discussion
+                with and direction from the principal engineer, and replaced two
+                senior engineers who were previously working on the effort (but
+                were't delivering results). This node based process bundled
+                together multiple micro frontends with the server,
+                productionized the output by running through the standard
+                bundlers and pre/post-processors, and configured with
+                proprietary company configuration to produce unique outputs for
+                6 different client brand websites. When I left the company, the
+                highly efficient process that I single handedly built was
+                running at 4 9's reliability (99.99% uptime/success rate)
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <div class="inner">
+              <h2>Nisum - Front End Software Engineer</h2>
+              <h5>January 2020 - July 2020 | Fremont, CA, USA</h5>
+              <p>
+                As a software engineer consultant, I worked on various projects,
+                mostly involving migrating from legacy systems to a html
+                handlebars based system. During this time, I also learned Vue
+                and other helpful libraries to prepare for upcoming client work.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <div class="inner">
+              <h2>
+                App Academy - Software Engineer Technical Admissions Specialist
+              </h2>
+              <h5>August 2019 - December 2019 | San Francisco, CA, USA</h5>
+              <p>
+                After graduating from the full stack software engineering
+                program, I worked part time as a technical admissions
+                specialist, interviewing candidates for core skills in
+                Javascript, Ruby, and Python to determine if they were good fit
+                for the program.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#about">About me</a></li>
-								<li><a href="#experience">Experience</a></li>
-								<li><a href="#sideProjects">Side Projects</a></li>
-								<li><a href="resume/Andrew_Chan_Resume.pdf" target="__blank">Resume</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
+      <!-- Two -->
+      <section id="two" class="wrapper style3 fade-up">
+        <div class="inner">
+          <h2>Education</h2>
+          <h5>App Academy (San Francisco, CA, USA) - Spring 2019</h5>
+          <p>Immersive three month full stack software engineering program.</p>
+          <h5>University of Washington (Seattle, WA, USA) - Winter 2018</h5>
+          <p>B.S. Applied Physics.</p>
+          <h5>Shatin College (Hong Kong) - Spring 2014</h5>
+          <p>iGCSE and IB diploma.</p>
+        </div>
+      </section>
 
-				</div>
+      <!-- Three -->
+      <section id="three" class="wrapper style1 fade-up">
+        <div class="inner">
+          <h2>Get in touch</h2>
+          <p>Feel free to contact me about employment opportunities!</p>
+          <div class="split style1">
+            <section>
+              <form action="mailto:andrew@achan.dev" method="get">
+                <div class="fields">
+                  <div class="field half">
+                    <label for="subject">Name</label>
+                    <input type="text" name="subject" id="subject" />
+                  </div>
+                  <div class="field half">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                  </div>
+                  <div class="field">
+                    <label for="body">Message</label>
+                    <textarea name="body" id="body" rows="5"></textarea>
+                  </div>
+                </div>
+                <ul class="actions">
+                  <li>
+                    <button type="submit">Send Message</button>
+                  </li>
+                </ul>
+              </form>
+            </section>
+            <section>
+              <ul class="contact">
+                <li>
+                  <h3>Email</h3>
+                  <a href="mailto:andrew@achan.dev">andrew@achan.dev</a>
+                </li>
+                <li>
+                  <h3>Phone</h3>
+                  <span>(206) 747-2542</span>
+                </li>
+                <li>
+                  <h3>Social</h3>
+                  <ul class="icons">
+                    <li>
+                      <a
+                        href="https://github.com/dowinterfor6"
+                        class="icon brands fa-github"
+                        target="_blank"
+                        ><span class="label">GitHub</span></a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/a-z-chan/"
+                        class="icon brands fa-linkedin-in"
+                        target="_blank"
+                        ><span class="label">LinkedIn</span></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
 
-			<!-- Gigantic Heading -->
-			<section id="about" class="wrapper style2">
-				<div class="container">
-					<header class="major">
-						<h2>About me</h2>
-						<p>Learn more about my experience in creating web solutions</p>
-					</header>
-				</div>
-			</section>
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>&copy; Andrew Chan. All rights reserved.</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
 
-			<!-- Highlights -->
-				<section class="wrapper style1">
-					<div class="container about-me">
-						<!-- <img class="display-picture" src="./images/dp.jpg" alt=""> -->
-						<div class="text">
-							<h3>Who am I</h3>
-							<p>
-								I'm a software engineer currently residing in San Francisco.
-								I have a background in Applied Physics from the University of Washington
-								and currently working at Nisum, a leader in e-commerce technology consulting. 
-								With expertise in working closely with product managers and UI/UX teams to meet
-								and exceed product expectations, I work with my team to bring the best out of
-								everyone.
-							</p>
-						</div>
-					</div>
-					<div class="container">
-						<h3 style="text-align:center">Tech that I work with</h3>
-						<div class="row gtr-200">
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="devicon-javascript-plain" style="color: #34b7ee"></i>
-									<h3>JavaScript</h3>
-									<p>
-										With over two years of experience using ES6 JavaScript with my company clients,
-										I can bring any idea to life with the flexibility of this language.
-									</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-										<i class="devicon-vuejs-plain colored"></i>
-									<h3>Vue</h3>
-									<p>
-										One of the popular frontend frameworks, Vue has been an integral part of my tech stack
-										that I use on a day to day basis with my current company client.
-									</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-										<i class="devicon-nodejs-plain colored"></i>
-									<h3>Node.js</h3>
-									<p>
-										Having the benefit of also being written in JavaScript, Node.js is a comfortable
-										choice as a backend server language, often used for server side rendering.
-									</p>
-								</div>
-							</section>
-						</div>
-					</div>
-					<div class="container skills-container">
-						<div class="skill-display">
-							<label class="skill">
-								<i class="devicon-html5-plain colored"></i>
-								<h4>HTML 5</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-css3-plain colored"></i>
-								<h4>CSS 3</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-tailwindcss-original-wordmark colored"></i>
-								<h4>Tailwind</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-git-plain colored"></i>
-								<h4>Git</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-webpack-plain colored"></i>
-								<h4>Webpack</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-jenkins-line"></i>
-								<h4>Jenkins</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-docker-plain colored"></i>
-								<h4>Docker</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-typescript-original colored"></i>
-								<h4>TypeScript</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-jest-plain colored"></i>
-								<h4>Jest</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-react-original colored"></i>
-								<h4>React</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-redux-original colored"></i>
-								<h4>Redux</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-mongodb-plain colored"></i>
-								<h4>MongoDB</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-express-original colored"></i>
-								<h4>Express</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-postgresql-plain colored"></i>
-								<h4>PostgreSQL</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-ruby-plain colored"></i>
-								<h4>Ruby</h4>
-							</label>
-							<label class="skill">
-								<i class="devicon-rails-plain colored"></i>
-								<h4>Ruby on Rails</h4>
-							</label>
-						</div>
-					</div>
-				</section>
-
-			<!-- Gigantic Heading -->
-				<section id='experience' class="wrapper style2">
-					<div class="container">
-						<header class="major">
-							<h2>Experience</h2>
-							<p>See what I've been up to</p>
-						</header>
-					</div>
-				</section>
-
-			<!-- Posts -->
-			<section class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<section class="experience-container">
-							<div class="box">
-								<div class="inner">
-									<h3>SF-based Fortune 500 consumer retail client, <em>Front End Software Engineer</em></h3>
-									<h4><em>July 2020 - Present</em></h4>
-									<p>
-										Migrated core e-commerce pages and features from an old tech stack into a new one using Vue and Node.js, while
-										developing new features to support company vision and growth.
-									</p>
-								</div>
-							</div>
-						</section>
-					</div>
-					<div class="row">
-						<section class="experience-container">
-							<div class="box">
-								<div class="inner">
-									<h3>Nisum, <em>Software Engineer</em></h3>
-									<h4><em>January 2020 - July 2020</em></h4>
-									<p>
-										Developed and polished core languages and frameworks commonly used by clients, as well as migrated a business to business (B2B)
-										site and created multiple working proof of concepts for clients.
-									</p>
-								</div>
-							</div>
-						</section>
-					</div>
-					<div class="row">
-						<section class="experience-container">
-							<div class="box">
-								<div class="inner">
-									<h3>App Academy, <em>Software Engineer Technical Admissions Specialist</em></h3>
-									<h4><em>August 2019 - December 2019</em></h4>
-									<p>
-										Conducted various technical interviews for potential bootcamp candidates, and mentored peers to prepare them for the position.
-									</p>
-								</div>
-							</div>
-						</section>
-					</div>
-					<div class="row">
-						<section class="experience-container">
-							<div class="box">
-								<div class="inner">
-									<h3>University of Washington, Seattle, <em>B.S. Applied Physics</em></h3>
-									<h4><em>Spring 2019</em></h4>
-								</div>
-							</div>
-						</section>
-					</div>
-				</div>
-			</section>
-
-			<!-- Gigantic Heading -->
-				<section id='sideProjects' class="wrapper style2">
-					<div class="container">
-						<header class="major">
-							<h2>Side Projects</h2>
-							<p>See what I've done in my free time</p>
-						</header>
-					</div>
-				</section>
-
-			<!-- Posts -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box">
-									<a href="https://e7rtastats.com/" target="__blank" class="image custom-image-container">
-										<img class="custom-image" src="./images/E7RtaStatsSS.png" alt="Stats Project Screenshot" />
-									</a>
-									<div class="inner">
-										<h3>
-											<a href="https://e7rtastats.com/" target="__blank">
-												Epic 7 RTA (Real Time Arena) Stats
-											</a>
-										</h3>
-										<p>
-											A mobile responsive data visualizer for Epic 7, a mobile RPG.
-											Data was available via a Reddit user's efforts, and I've utilized
-											it to create a visualizer for various statistics that players may
-											be interested in.
-										</p>
-									</div>
-								</div>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<div class="box">
-									<a href="https://play.google.com/store/apps/details?id=com.dowinterfor6.flappybara" target="__blank" class="image custom-image-container">
-										<img class="custom-image" src="./images/FlappybaraSS.png" alt="Mobile Game Screenshot" />
-									</a>
-									<div class="inner">
-										<h3>
-											<a href="https://play.google.com/store/apps/details?id=com.dowinterfor6.flappybara" target="__blank">
-												Flappybara
-											</a>
-										</h3>
-										<p>
-											A casual 2D side scroller, inspired by Flappy Bird. Being my
-											first real experience developing with Unity3D, this project 
-											has been the jumping off point for me to explore game development and 
-											other similar technologies such as Unreal Engine and Three.js.
-										</p>
-									</div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-			<!-- CTA -->
-				<section id="cta" class="wrapper style3">
-					<div class="container">
-						<header>
-							<h2>Copy of my resume?</h2>
-							<a href="resume/Andrew_Chan_Resume.pdf" class="button">Download</a>
-						</header>
-					</div>
-				</section>
-
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<h2 class="footer-instruction">Click on my e-mail to get in touch!</h2>
-
-						<ul class="contact-info menu">
-							<li id="contact"><h3>E-mail:</h3></li>
-							<li id="contact">
-								<a href="mailto:dowinterfor6@gmail.com" target="__blank">
-									<input 
-										type="text"
-										readonly
-										value="dowinterfor6@gmail.com"
-										id="email"
-										class="input-copy"
-									>
-								</a>
-							</li>
-						</ul>
-					</div>
-
-					<!-- Icons -->
-						<ul id="contact" class="icons">
-							<li><a href="https://github.com/dowinterfor6" class="icon fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://linkedin.com/in/a-z-chan" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						</ul>
-
-					<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; dowinterfor6. All rights reserved</li>
-								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
